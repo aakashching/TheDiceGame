@@ -4,7 +4,7 @@ function onClick() {
 var randomDice2 = Math.floor(Math.random() * 6) + 1;
 
 function dice(n) {
-    var diceList = ["images/dice1.png", "images/dice2.png", "images/dice3.png", "images/dice4.png", "images/dice5.png", "images/dice6.png"];
+    var diceList = ["dice1.png", "dice2.png", "dice3.png", "dice4.png", "dice5.png", "dice6.png"];
     
     var srcDice = diceList[n- 1];
     
